@@ -1,0 +1,39 @@
+{
+    "name": "@weefsell/memory-storage",
+    "version": "1.0.0",
+    "types": "dts/index.d.ts",
+    "description": "Simple memory storage with expiration based on the LRU algorithm",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "test",
+        "build": "gulp",
+        "dev_compile": "tsc --watch",
+        "dev": "nodemon --watch ./dist --delay 5 -r source-map-support/register ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/weefsell/simple-memory-storage.git"
+    },
+    "keywords": [
+        "simple",
+        "memory",
+        "storage",
+        "lru"
+    ],
+    "author": "WeefSell Sistemas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/weefsell/simple-memory-storage/issues"
+    },
+    "homepage": "https://github.com/weefsell/inversify-express#readme",
+    "dependencies": {
+        "tslib": "^1.9.3"
+    },
+    "devDependencies": {
+        "@types/node": "10.12.18",
+        "gulp": "4.0.0",
+        "gulp-typescript": "5.0.0",
+        "source-map-support": "0.5.9",
+        "typescript": "3.2.2"
+    }
+}

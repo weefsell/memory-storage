@@ -1,0 +1,11 @@
+src
+gulpfile.js
+tsconfig.json
+.travis.yml
+.gitignore
+.idea
+.iml
+.vscode
+.directory
+.DS_Store
+Thumbs.db
